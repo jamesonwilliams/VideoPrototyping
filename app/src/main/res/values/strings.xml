@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ExoPlayer Limit Test</string>
+    <string name="default_message_text">Default Message</string>
+    <string name="message_created">Created!</string>
 </resources>
