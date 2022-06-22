@@ -5,30 +5,44 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
-import player.limit.test.R
+import androidx.fragment.app.viewModels
+import androidx.lifecycle.lifecycleScope
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import androidx.recyclerview.widget.StaggeredGridLayoutManager
+import kotlinx.coroutines.flow.collect
+import kotlinx.coroutines.launch
 import player.limit.test.databinding.FragmentVideoGridBinding
+import player.limit.test.repo.FakeVideoRepository
 
 class VideoGridFragment : Fragment() {
-
-    companion object {
-        fun newInstance() = VideoGridFragment()
+    private val viewModel: VideoGridViewModel by viewModels {
+        VideoGridViewModel.Factory(
+            params = VideoGridViewModel.Params(
+                repository = FakeVideoRepository()
+            )
+        )
     }
-
-    private lateinit var viewModel: VideoGridViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
+        val adapter = GridAdapter()
         val view = FragmentVideoGridBinding.inflate(layoutInflater, container, false)
-        view.message.text = getString(R.string.message_created)
-        return view.root
-    }
+        view.grid.layoutManager = StaggeredGridLayoutManager(
+            /* spanCount = */ 2,
+            /* orientation */ StaggeredGridLayoutManager.VERTICAL
+        )
+        view.grid.adapter = adapter
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(VideoGridViewModel::class.java)
-        // TODO: Use the ViewModel
+        viewLifecycleOwner.lifecycleScope.launch {
+            viewModel.videos.collect { update ->
+                adapter.submitList(update)
+            }
+        }
+        viewModel.fetchVideos()
+
+        return view.root
     }
 }
