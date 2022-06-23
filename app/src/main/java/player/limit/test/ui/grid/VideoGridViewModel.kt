@@ -7,8 +7,8 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
+import player.limit.test.repo.Video
 import player.limit.test.repo.VideoRepository
-import java.lang.IllegalStateException
 
 class VideoGridViewModel(params: Params): ViewModel() {
     private val repository = params.repository
@@ -18,15 +18,32 @@ class VideoGridViewModel(params: Params): ViewModel() {
 
     fun fetchVideos() {
         viewModelScope.launch {
-            repository.getVideos().collect { newVideos ->
-                _videos.value = newVideos.map { newVideo ->
-                    VideoUiModel(
-                        id = newVideo.id,
-                        mediaUrl = newVideo.mediaUrl,
-                        description = newVideo.description,
-                    )
-                }
+            repository.getVideos(howMany = 6).collect { newVideos ->
+                _videos.value = newVideos.map { it.toVideoUiModel() }
             }
+        }
+    }
+
+    private fun Video.toVideoUiModel(): VideoUiModel {
+        val format = formats.pickBestType()
+        return VideoUiModel(
+            id = id,
+            description = "[${format.name}] $description",
+            mediaUrl = formats.urls[format]!!,
+            thumbnailUrl = thumbnail.url,
+            dimensions = VideoUiModel.Dimensions(
+                height = formats.dimensions.height,
+                width = formats.dimensions.width,
+            ),
+            externalUrl = detailLink,
+        )
+    }
+
+    private fun Video.Formats.pickBestType(): Video.Type {
+        return if (Video.Type.MP4 in urls) {
+            Video.Type.MP4
+        } else {
+            urls.keys.random()
         }
     }
 

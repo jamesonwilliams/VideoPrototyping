@@ -1,0 +1,793 @@
+{
+  "data": {
+    "recommendedMediaFeed": {
+      "elements": {
+        "dist": 25,
+        "pageInfo": {
+          "hasNextPage": true,
+          "endCursor": "dDNfdmlmNWdv"
+        },
+        "edges": [
+          {
+            "node": {
+              "id": "t3_vif5l5",
+              "title": "I trust my cat so much that I even put her print on my iPhone.",
+              "url": "https://v.redd.it/ujw0p4lhj8791",
+              "thumbnail": {
+                "url": "https://b.thumbs.redditmedia.com/R2k63Se8jBJbBBgJVp4WwJAJs1kXB7MCoRi1RjNHzuU.jpg",
+                "dimensions": {
+                  "width": 140,
+                  "height": 140
+                }
+              },
+              "media": {
+                "streaming": {
+                  "hlsUrl": "https://v.redd.it/ujw0p4lhj8791/HLSPlaylist.m3u8?f=hd&v=1&a=1658546675%2CZTc1YzVmNzM2YjJhODQ3MWM4NTIxN2VkOTZlMjAyM2E0MzcxZTE1ZjJlNDM4OWI1OTEyNjkyYjdkY2RjZTZjNQ%3D%3D",
+                  "dashUrl": "https://v.redd.it/ujw0p4lhj8791/DASHPlaylist.mpd?f=hd&v=1&a=1658546675%2CYTYyODY4NjkwOWM3ODkxZDdkZDcwMmJjNmU5NzQ1MGZlYWU1Zjk5ZjQ4YWZlNDhmZjczNjRjOWRlOTJhM2EwZg%3D%3D",
+                  "scrubberMediaUrl": "https://v.redd.it/ujw0p4lhj8791/DASH_96.mp4",
+                  "dimensions": {
+                    "width": 607,
+                    "height": 1080
+                  }
+                },
+                "packagedMedia": {
+                  "muxedMp4s": null
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "t3_vij5oj",
+              "title": "Life is going on in Ukraine, even after Russian rocket booster have landed in kitchen.",
+              "url": "https://v.redd.it/8x77guxig9791",
+              "thumbnail": {
+                "url": "https://b.thumbs.redditmedia.com/Kg19X-iwhGBJ42TT9KUXrnWsXu1CFIh7mt67x7bT7wM.jpg",
+                "dimensions": {
+                  "width": 140,
+                  "height": 140
+                }
+              },
+              "media": {
+                "streaming": {
+                  "hlsUrl": "https://v.redd.it/8x77guxig9791/HLSPlaylist.m3u8?f=sd&v=1&a=1658546675%2CZGQ2YjhiNDhlZmU4ZjU1YjI1MTQ2MTIyZTIyNjMwNGUyOTVlMTA1NTUzMGJhOGM4YzUzNDQzMGRmMWRiOTI3Mg%3D%3D",
+                  "dashUrl": "https://v.redd.it/8x77guxig9791/DASHPlaylist.mpd?f=sd&v=1&a=1658546675%2CMTA5ZmZlNGI0NDMwZjIxODcxZjBhYjQ1NTExYmYwODVlNTdkMDgyMTBhNTM3OGEyNWE2ZDVhZDU5Njk4MjVlZg%3D%3D",
+                  "scrubberMediaUrl": "https://v.redd.it/8x77guxig9791/DASH_96.mp4",
+                  "dimensions": {
+                    "width": 580,
+                    "height": 1080
+                  }
+                },
+                "packagedMedia": {
+                  "muxedMp4s": null
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "t3_viekmg",
+              "title": "This brazilian cleaning product ad",
+              "url": "https://v.redd.it/ob1bbvuke8791",
+              "thumbnail": {
+                "url": "https://b.thumbs.redditmedia.com/4IPA7BqaFb-R5IoohdBjVW3LYJaN4UQxLaFUX4xSyMg.jpg",
+                "dimensions": {
+                  "width": 140,
+                  "height": 78
+                }
+              },
+              "media": {
+                "streaming": {
+                  "hlsUrl": "https://v.redd.it/ob1bbvuke8791/HLSPlaylist.m3u8?f=hd&v=1&a=1658546675%2CNWEzMWNiZjFlMzcxN2U1YmUzZWU4Mzk1ODBmZmRjZTk0YWZiYjE0MjkwZjUzNDhiMjI1Y2RiYjc0ZTE3ZDdmZQ%3D%3D",
+                  "dashUrl": "https://v.redd.it/ob1bbvuke8791/DASHPlaylist.mpd?f=hd&v=1&a=1658546675%2COWM5ZDIwNTE1YmQ4NTk4MWM3YzcwZWNiOGZkNGYyYjViNWMxNTJkZmJiNDBhN2I1NDRlNjhiOTMyNzI1NTNkMA%3D%3D",
+                  "scrubberMediaUrl": "https://v.redd.it/ob1bbvuke8791/DASH_96.mp4",
+                  "dimensions": {
+                    "width": 1280,
+                    "height": 720
+                  }
+                },
+                "packagedMedia": {
+                  "muxedMp4s": null
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "t3_vi3fib",
+              "title": "\"Anolis Aquaticus\" also known as the Scuba Diving Lizard can stay submerged underwater for around 15 minutes. It breathes underwater through the pulsating air bubble seen on the top of its head.",
+              "url": "https://v.redd.it/p9yfmdxuv5791",
+              "thumbnail": {
+                "url": "https://b.thumbs.redditmedia.com/ZJyPltdd2QTvLGoJW4RBWsv75Gw-Tjn4bvRwuIue47Q.jpg",
+                "dimensions": {
+                  "width": 140,
+                  "height": 105
+                }
+              },
+              "media": {
+                "streaming": {
+                  "hlsUrl": "https://v.redd.it/p9yfmdxuv5791/HLSPlaylist.m3u8?f=sd&v=1&a=1658546675%2CYjgyM2Y0ZGY4NTFlNzM5YmNiZDAwMDNhZjE4ZjQ5ZTNhNGM2ZDU1MDRjZWI5ZGNlYjIyMThkNWE1ZWMyNjAxMQ%3D%3D",
+                  "dashUrl": "https://v.redd.it/p9yfmdxuv5791/DASHPlaylist.mpd?f=sd&v=1&a=1658546675%2CYmM3OTNhYjI2YzgyY2JmNjE4ZjMxMTA3MjQ5ZmM3MmM4ODEyNzVjOTBmOWRmMjM4NzRiODZkZTU5MWFlOTlhMQ%3D%3D",
+                  "scrubberMediaUrl": "https://v.redd.it/p9yfmdxuv5791/DASH_96.mp4",
+                  "dimensions": {
+                    "width": 640,
+                    "height": 480
+                  }
+                },
+                "packagedMedia": {
+                  "muxedMp4s": {
+                    "recommended": {
+                      "url": "https://packaged-media.redd.it/p9yfmdxuv5791/muxed-medium.mp4?m=DASHPlaylist.mpd&v=1&e=1655958275&s=47eaadda9081dd5da446d12c2bb5abe8954f3faf",
+                      "duration": 14
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "t3_viekjc",
+              "title": "Choked out and robbed (quite scary to watch)",
+              "url": "https://v.redd.it/8dksdyu5f8791",
+              "thumbnail": {
+                "url": "https://b.thumbs.redditmedia.com/9UeNwyb4YyJF04ZUIju7smGx8Ax2GzUtjwBblQ2siYs.jpg",
+                "dimensions": {
+                  "width": 140,
+                  "height": 140
+                }
+              },
+              "media": {
+                "streaming": {
+                  "hlsUrl": "https://v.redd.it/8dksdyu5f8791/HLSPlaylist.m3u8?f=sd&v=1&a=1658546675%2CMTc0YzkyNTg0ZDc0NmU0MzdkZTdhMjNkNjA4NjFiMzdlYmUxOTQ5ZjMyNzZjNTc0MmZhNzk1MzY0OGU0MTQzNQ%3D%3D",
+                  "dashUrl": "https://v.redd.it/8dksdyu5f8791/DASHPlaylist.mpd?f=sd&v=1&a=1658546675%2CNWU0YTgyOWE2YmRkMDU0OTkzNTQ1NGRmMzY2N2ExMGVjM2Q5ZDU0ZTllNjg3MjIzNmJmNmJlZmYxYWU0MjFiNw%3D%3D",
+                  "scrubberMediaUrl": "https://v.redd.it/8dksdyu5f8791/DASH_96.mp4",
+                  "dimensions": {
+                    "width": 407,
+                    "height": 720
+                  }
+                },
+                "packagedMedia": {
+                  "muxedMp4s": {
+                    "recommended": {
+                      "url": "https://packaged-media.redd.it/8dksdyu5f8791/muxed-medium.mp4?m=DASHPlaylist.mpd&v=1&e=1655958275&s=e3198ce362387e3ab8ac7009e2ffe774015d8f6a",
+                      "duration": 23
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "t3_vidr13",
+              "title": "(OC) This was right after we took him in. He spent the first 3 days with my partner and they bonded pretty quickly. The first day my partner had to leave for work Boone kept grabbing one of his shoes to cuddle with.",
+              "url": "https://v.redd.it/g06hk4br88791",
+              "thumbnail": {
+                "url": "https://b.thumbs.redditmedia.com/X1GV4-e_xvotq_ebvf5wSU62mM2PVnfjrcx87epcwnU.jpg",
+                "dimensions": {
+                  "width": 140,
+                  "height": 140
+                }
+              },
+              "media": {
+                "streaming": {
+                  "hlsUrl": "https://v.redd.it/g06hk4br88791/HLSPlaylist.m3u8?f=sd&v=1&a=1658546675%2CYWQ5YmQ4YjY5MzNlZTI4MGE5NzMyOGQzOTMxYjhhZmE5NmZjZDk0M2ZjMTBhZGI0YjQ5MTFkNzhiNzJkMGVmMg%3D%3D",
+                  "dashUrl": "https://v.redd.it/g06hk4br88791/DASHPlaylist.mpd?f=sd&v=1&a=1658546675%2CMWFkNDFkODA0YzBkMGM0MDlkM2I3YmNjMGM3YjVlMjQzMWY4NDNmODRiMmEwNjY1ZDk1NWRjYzMwYjkyNzJiMA%3D%3D",
+                  "scrubberMediaUrl": "https://v.redd.it/g06hk4br88791/DASH_96.mp4",
+                  "dimensions": {
+                    "width": 607,
+                    "height": 1080
+                  }
+                },
+                "packagedMedia": {
+                  "muxedMp4s": {
+                    "recommended": {
+                      "url": "https://packaged-media.redd.it/g06hk4br88791/muxed-medium.mp4?m=DASHPlaylist.mpd&v=1&e=1655958275&s=defa8ef3404bc119455f346682fdb3de567fce83",
+                      "duration": 10
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "t3_vihvzy",
+              "title": "To celebrate the success of my musical dice Kickstarter, I’m giving away a 14k gold plated set of the dice! All you need to do is comment on the post to enter. (Mod Approved) [OC] [Art]",
+              "url": "https://v.redd.it/2en8dvqi59791",
+              "thumbnail": {
+                "url": "https://b.thumbs.redditmedia.com/jWqOpMBKYOinLkki-YLIj-Yw9_RBZY-r-sLozy2KdLQ.jpg",
+                "dimensions": {
+                  "width": 140,
+                  "height": 78
+                }
+              },
+              "media": {
+                "streaming": {
+                  "hlsUrl": "https://v.redd.it/2en8dvqi59791/HLSPlaylist.m3u8?f=sd&v=1&a=1658546675%2CZWI1NzE4MGY0MzVhNDkxYjY2YjBkYTk4NzZjZWQxOGE2OWM3MWY5NjM0N2VkYWM4NWMwZmMwZWFmNTI2OTliNQ%3D%3D",
+                  "dashUrl": "https://v.redd.it/2en8dvqi59791/DASHPlaylist.mpd?f=sd&v=1&a=1658546675%2CZDM2Y2JlYjhkZGRlY2UzYzk4NTVkNDBiNDE0ZGY2NWQyOTdjNmI0NTNiNDU1ZjkzODZhZGZmMjZhYjQ0NGVhNw%3D%3D",
+                  "scrubberMediaUrl": "https://v.redd.it/2en8dvqi59791/DASH_96.mp4",
+                  "dimensions": {
+                    "width": 1920,
+                    "height": 1080
+                  }
+                },
+                "packagedMedia": {
+                  "muxedMp4s": null
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "t3_vig824",
+              "title": "He got his back",
+              "url": "https://v.redd.it/aqxksvrlr8791",
+              "thumbnail": {
+                "url": "https://a.thumbs.redditmedia.com/FeAeNHOCyc8r0fypSIsRHDH3cFtQO2j6PSNl99IPLQ4.jpg",
+                "dimensions": {
+                  "width": 140,
+                  "height": 140
+                }
+              },
+              "media": {
+                "streaming": {
+                  "hlsUrl": "https://v.redd.it/aqxksvrlr8791/HLSPlaylist.m3u8?f=hd&v=1&a=1658546675%2CODQ2MTA2ZTkzYjY0ZDY0Y2UzMTEyZjg5NzQ4MGI1Y2MxYTc1NzVmMDI4ZTNiOGM2NmI2YzAwODRkZjdkM2VmMQ%3D%3D",
+                  "dashUrl": "https://v.redd.it/aqxksvrlr8791/DASHPlaylist.mpd?f=hd&v=1&a=1658546675%2CNmIwYmUwOTc4MmQxZTk3Mjc1NTE2NmM0YTQ0YWQwN2M0ZmU3MThjMTA0MWMzMWMzNzdhMjQwYWI4YzdhMTI5OQ%3D%3D",
+                  "scrubberMediaUrl": "https://v.redd.it/aqxksvrlr8791/DASH_96.mp4",
+                  "dimensions": {
+                    "width": 405,
+                    "height": 720
+                  }
+                },
+                "packagedMedia": {
+                  "muxedMp4s": {
+                    "recommended": {
+                      "url": "https://packaged-media.redd.it/aqxksvrlr8791/muxed-medium.mp4?m=DASHPlaylist.mpd&v=1&e=1655958275&s=bd18367fee48f5732de7aae19165993800ebf582",
+                      "duration": 18
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "t3_vie6al",
+              "title": "This sub inspired me to get a dash cam and it really helped here. The other driver claimed we drifted into his lane and the trooper said it would be \"he said, she said\" with our insurance companies. Once we showed the dash cam footage the other guy got a ticket and the report said he lied.",
+              "url": "https://v.redd.it/az3l70c5b8791",
+              "thumbnail": {
+                "url": "https://b.thumbs.redditmedia.com/qxvfpqU0Y-2KeaP0Sv72kXQQhGkVz-6aQ9PQZv3w6zg.jpg",
+                "dimensions": {
+                  "width": 140,
+                  "height": 78
+                }
+              },
+              "media": {
+                "streaming": {
+                  "hlsUrl": "https://v.redd.it/az3l70c5b8791/HLSPlaylist.m3u8?f=sd&v=1&a=1658546675%2CMDNiM2JhZTc2ZTU4OGNmYzU1OWI3ZThhNDc3MzcwYTI3NmY2MDI1OGFjODgwY2VlYTJiZjUzYWY3MjYxNjFkMA%3D%3D",
+                  "dashUrl": "https://v.redd.it/az3l70c5b8791/DASHPlaylist.mpd?f=sd&v=1&a=1658546675%2CNjhjMTY4MzFkYTViYzc4MWFiZDYzMDc1N2I3NzNkOTY2Mjk4ZmFlMzQ3YTMyY2QwNWRiMTFiODA1NGQ0MWExYw%3D%3D",
+                  "scrubberMediaUrl": "https://v.redd.it/az3l70c5b8791/DASH_96.mp4",
+                  "dimensions": {
+                    "width": 1920,
+                    "height": 1080
+                  }
+                },
+                "packagedMedia": {
+                  "muxedMp4s": {
+                    "recommended": {
+                      "url": "https://packaged-media.redd.it/az3l70c5b8791/muxed-medium.mp4?m=DASHPlaylist.mpd&v=1&e=1655958275&s=a627a7ee5b66f7c07e87617a1cbe570bd1d28335",
+                      "duration": 40
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "t3_vi211c",
+              "title": "Four ace card shuffle trick",
+              "url": "https://v.redd.it/8l3jq0r1g5791",
+              "thumbnail": {
+                "url": "https://b.thumbs.redditmedia.com/f7EeIIzRr0I7GrookDn4rA8p4hVl6Ogy0119t6fPScs.jpg",
+                "dimensions": {
+                  "width": 140,
+                  "height": 140
+                }
+              },
+              "media": {
+                "streaming": {
+                  "hlsUrl": "https://v.redd.it/8l3jq0r1g5791/HLSPlaylist.m3u8?f=sd&v=1&a=1658546675%2CY2ZjMDU1MTg1MGI3NmFhMTU3YWMzNDg2MThkMDE0YjdmNTU0MTBlZjZlZTkwN2FhMTc3YmZkODc1N2EwNTVkOA%3D%3D",
+                  "dashUrl": "https://v.redd.it/8l3jq0r1g5791/DASHPlaylist.mpd?f=sd&v=1&a=1658546675%2CZGI0ZDM3NDE2NjE4YjQ0ODJhOWNlYTE3YzU2ODFkMWFmMjljYzEwNDQ2NWY0YzdmYzk5MzI0MDMyZTUzMWNiMQ%3D%3D",
+                  "scrubberMediaUrl": "https://v.redd.it/8l3jq0r1g5791/DASH_96.mp4",
+                  "dimensions": {
+                    "width": 608,
+                    "height": 1080
+                  }
+                },
+                "packagedMedia": {
+                  "muxedMp4s": null
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "t3_viel1u",
+              "title": "My dreams be like",
+              "url": "https://v.redd.it/xqtv7868f8791",
+              "thumbnail": {
+                "url": "https://b.thumbs.redditmedia.com/p0oMJQA0Vtu92M9n95edcRyvjcOKwTP2LQCjttIzJxs.jpg",
+                "dimensions": {
+                  "width": 140,
+                  "height": 140
+                }
+              },
+              "media": {
+                "streaming": {
+                  "hlsUrl": "https://v.redd.it/xqtv7868f8791/HLSPlaylist.m3u8?f=sd&v=1&a=1658546675%2CNGUyOGNlNDkxZTJkZGU5YWFiMmRjMmNlZmUxZDQwZDU1NzNiZDYxOWZlN2IwZjZjMjEzZjRlMTlmOGRhZDczZQ%3D%3D",
+                  "dashUrl": "https://v.redd.it/xqtv7868f8791/DASHPlaylist.mpd?f=sd&v=1&a=1658546675%2CZDc5OTQxNzgwNGZkZGNmYmQzNzYwMmVlZjA4NGNjZDdiNjk5NjBhY2JmOGJkNWVmZTUyYjQ0NGQwZDcwYzA0Nw%3D%3D",
+                  "scrubberMediaUrl": "https://v.redd.it/xqtv7868f8791/DASH_96.mp4",
+                  "dimensions": {
+                    "width": 607,
+                    "height": 1080
+                  }
+                },
+                "packagedMedia": {
+                  "muxedMp4s": {
+                    "recommended": {
+                      "url": "https://packaged-media.redd.it/xqtv7868f8791/muxed-medium.mp4?m=DASHPlaylist.mpd&v=1&e=1655958275&s=fd73897fe62901884a1a8a35b2c73b51563fa5d3",
+                      "duration": 24
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "t3_vid78n",
+              "title": "“He’s adorable”😬",
+              "url": "https://v.redd.it/i800jd3d48791",
+              "thumbnail": {
+                "url": "https://a.thumbs.redditmedia.com/sy2QnnVjgFV1B1B-PYhKXDR3WLzFoKDxUhv4xCjC2H0.jpg",
+                "dimensions": {
+                  "width": 140,
+                  "height": 78
+                }
+              },
+              "media": {
+                "streaming": {
+                  "hlsUrl": "https://v.redd.it/i800jd3d48791/HLSPlaylist.m3u8?f=sd&v=1&a=1658546675%2CYzFmZjRlZmRhNTk0MTE4OWIzMjdiYWZlYmEzMTcwN2UzYjQzNGZmODRlZTIxMzBkYzU5Y2JmZWNjZjc0NmFhMw%3D%3D",
+                  "dashUrl": "https://v.redd.it/i800jd3d48791/DASHPlaylist.mpd?f=sd&v=1&a=1658546675%2CMmFjMjQ5NTdhZTdjYjM2OTVhMTkzZDIwY2VmN2Y2NzY0NzFjOTgxYmE3MmU3Zjk1Njk1NWM5MzgwNjhjODk3Yg%3D%3D",
+                  "scrubberMediaUrl": "https://v.redd.it/i800jd3d48791/DASH_96.mp4",
+                  "dimensions": {
+                    "width": 853,
+                    "height": 480
+                  }
+                },
+                "packagedMedia": {
+                  "muxedMp4s": {
+                    "recommended": {
+                      "url": "https://packaged-media.redd.it/i800jd3d48791/muxed-medium.mp4?m=DASHPlaylist.mpd&v=1&e=1655958275&s=5578e648342fca85ca22c6e5de438547571c290f",
+                      "duration": 23
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "t3_vi45sv",
+              "title": "This exists",
+              "url": "https://v.redd.it/cyquad9g26791",
+              "thumbnail": {
+                "url": "https://b.thumbs.redditmedia.com/zfcn5-SkN2yacJ6mTF8f7XmUabD_vFaYyY15fiq51dA.jpg",
+                "dimensions": {
+                  "width": 140,
+                  "height": 78
+                }
+              },
+              "media": {
+                "streaming": {
+                  "hlsUrl": "https://v.redd.it/cyquad9g26791/HLSPlaylist.m3u8?f=sd&v=1&a=1658546675%2CZGRlYzBkYTVlY2FhMDY3NjlkMDUwMGQ4MzQ5NmRiZDJlZmUxMzdjZTc2NjgxODI3YWEzMDZlZmQxOTkxNmMyZg%3D%3D",
+                  "dashUrl": "https://v.redd.it/cyquad9g26791/DASHPlaylist.mpd?f=sd&v=1&a=1658546675%2CNzZiOTU5MmE1MjBkOTc0YWMzODllOWNjYjg3M2UwZmM3MmNmZTM1ZWYyN2UzNGUzNTk4NTIxYzQ0NzkyNDVmNQ%3D%3D",
+                  "scrubberMediaUrl": "https://v.redd.it/cyquad9g26791/DASH_96.mp4",
+                  "dimensions": {
+                    "width": 1920,
+                    "height": 1080
+                  }
+                },
+                "packagedMedia": {
+                  "muxedMp4s": {
+                    "recommended": {
+                      "url": "https://packaged-media.redd.it/cyquad9g26791/muxed-medium.mp4?m=DASHPlaylist.mpd&v=1&e=1655958275&s=2c4fa67375359953c7e6859d35ed2e7500d5d39f",
+                      "duration": 33
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "t3_vi7m8k",
+              "title": "We made Elden Ring look like it's from 1995 and on SNES :)",
+              "url": "https://v.redd.it/w4l2etayv6791",
+              "thumbnail": {
+                "url": "https://b.thumbs.redditmedia.com/fcld0Qdlgj3DpdUwqszw_dhegxLLhtQLal-_EgINLPE.jpg",
+                "dimensions": {
+                  "width": 140,
+                  "height": 140
+                }
+              },
+              "media": {
+                "streaming": {
+                  "hlsUrl": "https://v.redd.it/w4l2etayv6791/HLSPlaylist.m3u8?f=hd&v=1&a=1658546675%2CMGE2MzQ1MTNhOGZlOWI2ZjA2MjU4ZDU4MzE1ZjQ5MzMzZjE4NTUzNWRkMDYwZjAyZDk5ODFhMGY0YWMxYjY1OA%3D%3D",
+                  "dashUrl": "https://v.redd.it/w4l2etayv6791/DASHPlaylist.mpd?f=hd&v=1&a=1658546675%2COWU4YzMyZWUyOWVhNGNiNGVhYTFiOWY4OWI3Y2M4OGQxZjdhZjY3YjNhZjMwMDIyYjA1YTMxOTUwM2U2MGZiYg%3D%3D",
+                  "scrubberMediaUrl": "https://v.redd.it/w4l2etayv6791/DASH_96.mp4",
+                  "dimensions": {
+                    "width": 480,
+                    "height": 480
+                  }
+                },
+                "packagedMedia": {
+                  "muxedMp4s": {
+                    "recommended": {
+                      "url": "https://packaged-media.redd.it/w4l2etayv6791/muxed-medium.mp4?m=DASHPlaylist.mpd&v=1&e=1655958275&s=f6afc3e12dbc3a7c6489c3cca3cc16e48e52496a",
+                      "duration": 15
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "t3_viaf7a",
+              "title": "French just ain’t that sexy",
+              "url": "https://v.redd.it/s684p0sgi7791",
+              "thumbnail": {
+                "url": "https://b.thumbs.redditmedia.com/O20O9C5UuczwWQOUSl36x8qRW2Q3NWYQ_b87BANFfRc.jpg",
+                "dimensions": {
+                  "width": 140,
+                  "height": 140
+                }
+              },
+              "media": {
+                "streaming": {
+                  "hlsUrl": "https://v.redd.it/s684p0sgi7791/HLSPlaylist.m3u8?f=sd&v=1&a=1658546675%2CZDNiNjg0OTNlZTNiOTYxY2QyOWJjZDZjNGY5ZmQ2YjRmNzdmNWU2MDUxOTg3NzlkOGNmODVlYjgxOTg1MmU1ZQ%3D%3D",
+                  "dashUrl": "https://v.redd.it/s684p0sgi7791/DASHPlaylist.mpd?f=sd&v=1&a=1658546675%2CMTQzOGZmOWViMmU0Yzk5MmUxMzU0MWIzN2ZiYjJiZGMyMjJlNjIzOTg5ZDliMzc1MjFjNmJmZGQwMzk3NjNhNA%3D%3D",
+                  "scrubberMediaUrl": "https://v.redd.it/s684p0sgi7791/DASH_96.mp4",
+                  "dimensions": {
+                    "width": 405,
+                    "height": 720
+                  }
+                },
+                "packagedMedia": {
+                  "muxedMp4s": null
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "t3_vi3qyw",
+              "title": "excellent grandma",
+              "url": "https://v.redd.it/xssib7epy5791",
+              "thumbnail": {
+                "url": "https://b.thumbs.redditmedia.com/76-zWU9sy9iBXa6rnSeZjS1Fw_JfPzqxkkPO2HnxedE.jpg",
+                "dimensions": {
+                  "width": 140,
+                  "height": 140
+                }
+              },
+              "media": {
+                "streaming": {
+                  "hlsUrl": "https://v.redd.it/xssib7epy5791/HLSPlaylist.m3u8?f=sd&v=1&a=1658546675%2CMGQzYjZkM2ZjMmE1ZmYwZDM2YTIyYWYyNmViYWRhYzE3NzUxZGRjZjZjZGUwNjQwMjY0NDY2Y2RkNTA0ZmNiZA%3D%3D",
+                  "dashUrl": "https://v.redd.it/xssib7epy5791/DASHPlaylist.mpd?f=sd&v=1&a=1658546675%2CY2U2MDM3ZTgwZGFkOTRkM2NmMzlhOTZjZTNmZjlmMjBmZGYwNmJhOTg0NmYyOTk0NWQ3NWM4MDQ2ODhlMTEyMQ%3D%3D",
+                  "scrubberMediaUrl": "https://v.redd.it/xssib7epy5791/DASH_96.mp4",
+                  "dimensions": {
+                    "width": 360,
+                    "height": 360
+                  }
+                },
+                "packagedMedia": {
+                  "muxedMp4s": {
+                    "recommended": {
+                      "url": "https://packaged-media.redd.it/xssib7epy5791/muxed-medium.mp4?m=DASHPlaylist.mpd&v=1&e=1655958275&s=ba3b4c3e7da6c26b4dd57ba1669aab3d73a7a87a",
+                      "duration": 27
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "t3_viecy9",
+              "title": "Robert Wadlow, the tallest human in recorded history",
+              "url": "https://v.redd.it/zukz84oid8791",
+              "thumbnail": {
+                "url": "https://b.thumbs.redditmedia.com/3YtX7jeccTZHSsDchcCRr7Bwq_vpWjfuUbxTbM4DsAs.jpg",
+                "dimensions": {
+                  "width": 140,
+                  "height": 114
+                }
+              },
+              "media": {
+                "streaming": {
+                  "hlsUrl": "https://v.redd.it/zukz84oid8791/HLSPlaylist.m3u8?f=hd&v=1&a=1658546675%2COGFkZGNlOTljNDAwNTA1ZjZkYTkwNGI3NTkxYWYyY2UxYzE0NDljNDJlOGQ2NTAwNmQ2ZDc1YjVjYWM1MDNlZQ%3D%3D",
+                  "dashUrl": "https://v.redd.it/zukz84oid8791/DASHPlaylist.mpd?f=hd&v=1&a=1658546675%2CM2JmYTZiMDI4NTQ5ZWI4YTNlMWFiNzlhOGE2YzJlOTA3OGVmZWUwN2I2YzU0NjNjYzY4NjM4NWY2ZGE0NDc4NQ%3D%3D",
+                  "scrubberMediaUrl": "https://v.redd.it/zukz84oid8791/DASH_96.mp4",
+                  "dimensions": {
+                    "width": 586,
+                    "height": 480
+                  }
+                },
+                "packagedMedia": {
+                  "muxedMp4s": {
+                    "recommended": {
+                      "url": "https://packaged-media.redd.it/zukz84oid8791/muxed-medium.mp4?m=DASHPlaylist.mpd&v=1&e=1655958275&s=9405925b62e488161e39ea5ce112ee44ff5dfccc",
+                      "duration": 36
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "t3_vig9j9",
+              "title": "5 minute crafts gone wrong",
+              "url": "https://v.redd.it/iavporvhs8791",
+              "thumbnail": {
+                "url": "https://a.thumbs.redditmedia.com/YCwy2Y1fqmuWhILEIBgdOsXYET1ODdzeh-ahT74QDd4.jpg",
+                "dimensions": {
+                  "width": 140,
+                  "height": 140
+                }
+              },
+              "media": {
+                "streaming": {
+                  "hlsUrl": "https://v.redd.it/iavporvhs8791/HLSPlaylist.m3u8?f=hd&v=1&a=1658546675%2CZmFjMWRjMjY5ZGJmMjgwYzBkYzlmZjhmY2YzOTYxNGIyZTFiNTZmYjMwOGVlZWE3YjdkNzVmMWU3ZWExNzRhNQ%3D%3D",
+                  "dashUrl": "https://v.redd.it/iavporvhs8791/DASHPlaylist.mpd?f=hd&v=1&a=1658546675%2CZjA4ZDcxZjE2YTNlZTAwNDY0M2MxOTUxNmJlZmRjNjhhYzI3ZWU0MjE3N2FhYzczMTIxNDVkMmQyODA1OWI5Yg%3D%3D",
+                  "scrubberMediaUrl": "https://v.redd.it/iavporvhs8791/DASH_96.mp4",
+                  "dimensions": {
+                    "width": 611,
+                    "height": 1080
+                  }
+                },
+                "packagedMedia": {
+                  "muxedMp4s": null
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "t3_vicmnd",
+              "title": "🐢🐢🐢",
+              "url": "https://v.redd.it/2ceon8jyz7791",
+              "thumbnail": {
+                "url": "https://b.thumbs.redditmedia.com/4euIvrSlXTt12QWISyILgW--7Xdx4Ju6TycS-a7oZrM.jpg",
+                "dimensions": {
+                  "width": 140,
+                  "height": 140
+                }
+              },
+              "media": {
+                "streaming": {
+                  "hlsUrl": "https://v.redd.it/2ceon8jyz7791/HLSPlaylist.m3u8?f=sd&v=1&a=1658546675%2CYzcyNWYzOGQ1ZWYzMTUzZThmZWQxMmRlZWU0OGUzNDI5ZGI2YjYzMmU0NmY0NDE0MmYzMGFkOWVkZDE4MDUwNg%3D%3D",
+                  "dashUrl": "https://v.redd.it/2ceon8jyz7791/DASHPlaylist.mpd?f=sd&v=1&a=1658546675%2CMTI4ZDZhNWU1Y2EyMDBmM2FmMjQ2ZWQ1MWU5MWZjYjY0YTY3ZWUyZWE2YzY0ZDM4NDYxM2M2MDBlZjhhYmMyMw%3D%3D",
+                  "scrubberMediaUrl": "https://v.redd.it/2ceon8jyz7791/DASH_96.mp4",
+                  "dimensions": {
+                    "width": 460,
+                    "height": 720
+                  }
+                },
+                "packagedMedia": {
+                  "muxedMp4s": {
+                    "recommended": {
+                      "url": "https://packaged-media.redd.it/2ceon8jyz7791/muxed-medium.mp4?m=DASHPlaylist.mpd&v=1&e=1655958275&s=dd93a38908a7fcc3f2be1ecef649dc25982f1875",
+                      "duration": 15
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "t3_vi56eh",
+              "title": "Industrial revolution",
+              "url": "https://v.redd.it/4rv3vjgfb6791",
+              "thumbnail": {
+                "url": "https://b.thumbs.redditmedia.com/foyx1IUTfp4yfQM8DxaNl9mhRyNW2zbeSHO-nf7WE9s.jpg",
+                "dimensions": {
+                  "width": 140,
+                  "height": 140
+                }
+              },
+              "media": {
+                "streaming": {
+                  "hlsUrl": "https://v.redd.it/4rv3vjgfb6791/HLSPlaylist.m3u8?f=sd&v=1&a=1658546675%2CNWZhODYyMDkxNzFhNGU2MDM3MjhhNmJlYzVmMTgxOGMyNDQ0NWY5ODA2M2Y4NzE5OWUxOTg3OTNhMjM2NjVjMw%3D%3D",
+                  "dashUrl": "https://v.redd.it/4rv3vjgfb6791/DASHPlaylist.mpd?f=sd&v=1&a=1658546675%2CMWEzNGM1ZmJlZWRmOGY4OWUyMDM2YzdkNzkzZDcxM2U1ZDZkNTQ4MzhjMzQ0MTMyYmZhMjdmMTY2N2Y5NTlmMw%3D%3D",
+                  "scrubberMediaUrl": "https://v.redd.it/4rv3vjgfb6791/DASH_96.mp4",
+                  "dimensions": {
+                    "width": 455,
+                    "height": 480
+                  }
+                },
+                "packagedMedia": {
+                  "muxedMp4s": {
+                    "recommended": {
+                      "url": "https://packaged-media.redd.it/4rv3vjgfb6791/muxed-medium.mp4?m=DASHPlaylist.mpd&v=1&e=1655958275&s=9941d689a540c17deb367655494575d55d04e5aa",
+                      "duration": 42
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "t3_vi7flz",
+              "title": "Here’s why Norway is among the happiest country on Earth",
+              "url": "https://v.redd.it/wqsky9heu6791",
+              "thumbnail": {
+                "url": "https://b.thumbs.redditmedia.com/UsvZrukq-6KjH3S3toqI06P_RkJ3bLZOLLVS-oHbEFQ.jpg",
+                "dimensions": {
+                  "width": 140,
+                  "height": 140
+                }
+              },
+              "media": {
+                "streaming": {
+                  "hlsUrl": "https://v.redd.it/wqsky9heu6791/HLSPlaylist.m3u8?f=sd&v=1&a=1658546675%2CZDkzNzA2ZjZkNTRjOWI0NjVhN2Y1Mzg5ZTk0MzVlNGQwMTU2OGY5ZmM5MzZlYWYzNDAxMjY5OTQ0Zjc3Mjc3Zg%3D%3D",
+                  "dashUrl": "https://v.redd.it/wqsky9heu6791/DASHPlaylist.mpd?f=sd&v=1&a=1658546675%2CYmM1MzM4MmM3YjEwMDQ2MDg5NjIzYjE1ZDk4NjZjMTZkNTNhYzcxNWZhNTExMzFlMDJjZjk3MWUxODUwZjJiMA%3D%3D",
+                  "scrubberMediaUrl": "https://v.redd.it/wqsky9heu6791/DASH_96.mp4",
+                  "dimensions": {
+                    "width": 608,
+                    "height": 1080
+                  }
+                },
+                "packagedMedia": {
+                  "muxedMp4s": null
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "t3_viea3j",
+              "title": "There is no discussing it.",
+              "url": "https://v.redd.it/5cji5upnc8791",
+              "thumbnail": {
+                "url": "https://b.thumbs.redditmedia.com/AWPecmPMQ4zLkwWVoQy-W95gY-rPckhRSaAnbQqq7sQ.jpg",
+                "dimensions": {
+                  "width": 140,
+                  "height": 78
+                }
+              },
+              "media": {
+                "streaming": {
+                  "hlsUrl": "https://v.redd.it/5cji5upnc8791/HLSPlaylist.m3u8?f=hd&v=1&a=1658546675%2CZWY5Y2E3YjRmZmYyYTdhOTNjZDcyYTE5MDMwYWE2MDY0M2NmYTc2MWRkNTgyNjRjZDMzMzQ1YWU1ZDUyNGI3Zg%3D%3D",
+                  "dashUrl": "https://v.redd.it/5cji5upnc8791/DASHPlaylist.mpd?f=hd&v=1&a=1658546675%2CZjhhNWUwNjg1YjBmOTY4MDUxNDNhZmExOTA1NDZmNjNmNDZhY2U5ZGZhYTdlMzAxZjEyZTRiYWU0YzAzNWE5Ng%3D%3D",
+                  "scrubberMediaUrl": "https://v.redd.it/5cji5upnc8791/DASH_96.mp4",
+                  "dimensions": {
+                    "width": 1920,
+                    "height": 1080
+                  }
+                },
+                "packagedMedia": {
+                  "muxedMp4s": null
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "t3_vidd42",
+              "title": "ブラック企業 Moment",
+              "url": "https://v.redd.it/iar5iq2h58791",
+              "thumbnail": {
+                "url": "https://b.thumbs.redditmedia.com/569Q8nB6YdZNk6DfYQUzqIpjZOmq9zSi8eAwMM6fqbs.jpg",
+                "dimensions": {
+                  "width": 140,
+                  "height": 140
+                }
+              },
+              "media": {
+                "streaming": {
+                  "hlsUrl": "https://v.redd.it/iar5iq2h58791/HLSPlaylist.m3u8?f=sd&v=1&a=1658546675%2CZThmMmZhZGU1ZTg4YWE3NDhjZmU5ZDE5ODljODkzNDJlNWEwNDlkMGEyYTkzMmU1NGE1YjQzZWUzMzUyNDAzNw%3D%3D",
+                  "dashUrl": "https://v.redd.it/iar5iq2h58791/DASHPlaylist.mpd?f=sd&v=1&a=1658546675%2CN2I2MGFkNWEyY2ZmNjc1NzdmMjA0Zjk5YzZiZDAyMmU2MTIzYmI5ZjI1MjIxZTVmMmI0MjIwOGQxMzYwOTIxMg%3D%3D",
+                  "scrubberMediaUrl": "https://v.redd.it/iar5iq2h58791/DASH_96.mp4",
+                  "dimensions": {
+                    "width": 1080,
+                    "height": 1080
+                  }
+                },
+                "packagedMedia": {
+                  "muxedMp4s": {
+                    "recommended": {
+                      "url": "https://packaged-media.redd.it/iar5iq2h58791/muxed-medium.mp4?m=DASHPlaylist.mpd&v=1&e=1655958275&s=96ae4f184c9224f1bfd0cec03c804b9da3f5865a",
+                      "duration": 39
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "t3_vic6md",
+              "title": "Mick Lynch has to explain to Piers Morgan that Thunderbirds isn't real",
+              "url": "https://v.redd.it/jfsotgjgw7791",
+              "thumbnail": {
+                "url": "https://b.thumbs.redditmedia.com/dJcxt0kbHBJR_VQzsTNRYOv5O1NyGeD4wgbCrTFUUCQ.jpg",
+                "dimensions": {
+                  "width": 140,
+                  "height": 140
+                }
+              },
+              "media": {
+                "streaming": {
+                  "hlsUrl": "https://v.redd.it/jfsotgjgw7791/HLSPlaylist.m3u8?f=hd&v=1&a=1658546675%2CNTJhZDEyZWIwMTYxNDE4Y2UxZDg0YWNiNDdjMmQwYjgyYzFlNzViMTZiMjNlZDNhOWM1OWVhMWUyZDg4OTNiZA%3D%3D",
+                  "dashUrl": "https://v.redd.it/jfsotgjgw7791/DASHPlaylist.mpd?f=hd&v=1&a=1658546675%2CYjE0NzNlYTY4NTkyYmY1MTc5YmE3Yzc0MDU4MDYzYmJjZGM3OGNmNWU3NTgzNDBhNWExMDlkZTk2Mjc5Yzg1Yw%3D%3D",
+                  "scrubberMediaUrl": "https://v.redd.it/jfsotgjgw7791/DASH_96.mp4",
+                  "dimensions": {
+                    "width": 480,
+                    "height": 480
+                  }
+                },
+                "packagedMedia": {
+                  "muxedMp4s": null
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "t3_vif5go",
+              "title": "Don’t bring a knife to a gun fight",
+              "url": "https://v.redd.it/jh6vq0ssj8791",
+              "thumbnail": {
+                "url": "https://b.thumbs.redditmedia.com/XMKS4YbOHLmLWyl4zTaI89OeeHw5TM7ANYaQIcAzUhA.jpg",
+                "dimensions": {
+                  "width": 140,
+                  "height": 140
+                }
+              },
+              "media": {
+                "streaming": {
+                  "hlsUrl": "https://v.redd.it/jh6vq0ssj8791/HLSPlaylist.m3u8?f=sd&v=1&a=1658546675%2CZDUzN2ZhMjFhZGY2NmE0NTk5NzAzMGRmYjE3NGVjMzY5YWMzMzkxYTg0OTJjNGVlYjkxMzZjZmYxZGUzNTZhOQ%3D%3D",
+                  "dashUrl": "https://v.redd.it/jh6vq0ssj8791/DASHPlaylist.mpd?f=sd&v=1&a=1658546675%2CZWFkNjUzN2FlYjJjZWZkOTRkMzYzZTg0ZmE2NWI1MzYxYWRmZGNkODVjNDZkYTY2NTFhMWI1MWNlMTY0YzcxZA%3D%3D",
+                  "scrubberMediaUrl": "https://v.redd.it/jh6vq0ssj8791/DASH_96.mp4",
+                  "dimensions": {
+                    "width": 575,
+                    "height": 1080
+                  }
+                },
+                "packagedMedia": {
+                  "muxedMp4s": {
+                    "recommended": {
+                      "url": "https://packaged-media.redd.it/jh6vq0ssj8791/muxed-medium.mp4?m=DASHPlaylist.mpd&v=1&e=1655958275&s=84cd0d62af5cbd847952d9bcad7dfc8bed3fb100",
+                      "duration": 26
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "debug": {
+    "trace": "https://longboard.wavefront.com/tracing/search?traceID=00000000-0000-0000-9973-405024676375#_v01(tf:!((filterType:TraceId,value:!('00000000-0000-0000-9973-405024676375'))))"
+  }
+}
