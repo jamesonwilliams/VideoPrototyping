@@ -16,6 +16,7 @@ class VideoResourceRepository(private val resourceLoader: ResourceLoader): Video
             .recommendedMediaFeed
             .elements
             .edges
+            .shuffled()
             .subList(0, howMany)
             .map { it.toVideo() }
             .let { flowOf(it) }
