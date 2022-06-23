@@ -4,7 +4,7 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class RecommendedVideos(
-    val data: Data,
+    val `data`: Data,
     val debug: Debug
 )
 
@@ -45,34 +45,31 @@ data class PageInfo(
 data class Node(
     val id: String,
     val media: Media,
-    val thumbnail: Thumbnail,
     val title: String,
     val url: String
 )
 
 @Serializable
 data class Media(
-    val packagedMedia: PackagedMedia?,
+    val packagedMedia: PackagedMedia,
+    val still: Still,
     val streaming: Streaming
 )
 
 @Serializable
-data class Thumbnail(
-    val dimensions: Dimensions,
-    val url: String
+data class PackagedMedia(
+    val muxedMp4s: MuxedMp4s?
 )
 
 @Serializable
-data class PackagedMedia(
-    val muxedMp4s: MuxedMp4s? = null,
+data class Still(
+    val source: Source
 )
 
 @Serializable
 data class Streaming(
     val dashUrl: String,
-    val dimensions: Dimensions,
-    val hlsUrl: String,
-    val scrubberMediaUrl: String
+    val dimensions: Dimensions
 )
 
 @Serializable
@@ -83,6 +80,12 @@ data class MuxedMp4s(
 @Serializable
 data class Recommended(
     val duration: Int,
+    val url: String
+)
+
+@Serializable
+data class Source(
+    val dimensions: Dimensions,
     val url: String
 )
 

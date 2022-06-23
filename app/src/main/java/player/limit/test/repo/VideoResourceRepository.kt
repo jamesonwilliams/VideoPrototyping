@@ -2,7 +2,6 @@ package player.limit.test.repo
 
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flowOf
-import kotlinx.coroutines.flow.take
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.Json
 import player.limit.test.R
@@ -28,9 +27,9 @@ class VideoResourceRepository(private val resourceLoader: ResourceLoader): Video
                 id = id,
                 description = title,
                 detailLink = url,
-                duration = media.packagedMedia?.muxedMp4s?.recommended?.duration,
+                duration = media.packagedMedia.muxedMp4s?.recommended?.duration,
                 formats = media.toFormats(),
-                thumbnail = thumbnail.toVideoThumbnail()
+                thumbnail = media.still.source.toVideoThumbnail()
             )
         }
     }
@@ -47,15 +46,14 @@ class VideoResourceRepository(private val resourceLoader: ResourceLoader): Video
 
     private fun Media.toUrls(): Map<Video.Type, String> {
         return mutableMapOf<Video.Type, String>().apply {
-            packagedMedia?.muxedMp4s?.recommended?.url?.let { mp4Url ->
+            packagedMedia.muxedMp4s?.recommended?.url?.let { mp4Url ->
                 put(Video.Type.MP4, mp4Url)
             }
-            put(Video.Type.HLS, streaming.hlsUrl)
             put(Video.Type.DASH, streaming.dashUrl)
         }.toMap()
     }
 
-    private fun Thumbnail.toVideoThumbnail(): Video.Thumbnail {
+    private fun Source.toVideoThumbnail(): Video.Thumbnail {
         return Video.Thumbnail(
             url = url,
             dimensions = Video.Dimensions(
