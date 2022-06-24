@@ -38,8 +38,8 @@ class VideoResourceRepository(private val resourceLoader: ResourceLoader): Video
         return Video.Formats(
             urls = toUrls(),
             dimensions = Video.Dimensions(
-                height = streaming.dimensions.height,
-                width = streaming.dimensions.width,
+                height = still.source.dimensions.height,
+                width = still.source.dimensions.width,
             )
         )
     }

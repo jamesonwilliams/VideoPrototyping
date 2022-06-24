@@ -1,46 +1,77 @@
 package player.limit.test.ui.grid
 
-import android.content.Context
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
-import com.google.android.exoplayer2.ExoPlayer
 import com.google.android.exoplayer2.MediaItem
-import com.google.android.exoplayer2.PlaybackException
 import com.google.android.exoplayer2.Player
+import com.squareup.picasso.Picasso
 import player.limit.test.databinding.GridItemBinding
+import player.limit.test.util.PlayerLendingLibrary
+import player.limit.test.util.invisible
+import player.limit.test.util.visible
 
 internal class VideoViewHolder private constructor(
     private val binding: GridItemBinding
 ): ViewHolder(binding.root) {
-    fun bind(video: VideoUiModel) {
-        binding.textOverlay.text = video.description
-        with (binding.video) {
-            useArtwork = true
-            useController = false
-            player?.run {
-                setMediaItem(MediaItem.fromUri(video.mediaUrl))
+    fun bind(model: VideoUiModel) {
+        Log.i("XXXX", "Binding ${hashCode()}} ${model.id}")
+        itemView.tag = model.id
+        with(binding) {
+            playerView.player = null
+            playerView.invisible()
+            stillImage.invisible()
+            with (model.dimensions) {
+                root.setAspectRatio(width.toFloat() / height.toFloat())
+            }
+            textOverlay.text = model.description
+            when (model.displayMode) {
+                VideoUiModel.DisplayMode.STILL -> binding.showImage(model.dimensions, model.imageUrl)
+                VideoUiModel.DisplayMode.VIDEO -> binding.playVideo(model.mediaUrl)
+            }
+        }
+    }
+
+    private fun GridItemBinding.showImage(dimensions: VideoUiModel.Dimensions, imageUrl: String) {
+        Picasso.get()
+            .load(imageUrl)
+            .resize(dimensions.width, dimensions.height)
+            .into(stillImage)
+        stillImage.visible()
+    }
+
+    private fun GridItemBinding.playVideo(mediaUrl: String) {
+        PlayerLendingLibrary.requestPlayer(playerView.context, this@VideoViewHolder) {
+            playerView.player?.stop()
+            playerView.player = null
+        }.let { player ->
+            with (player) {
+                setMediaItem(MediaItem.fromUri(mediaUrl))
                 prepare()
                 repeatMode = Player.REPEAT_MODE_ALL
                 playWhenReady = true
                 volume = 0f
             }
+            with (playerView) {
+                useArtwork = true
+                useController = false
+                setKeepContentOnPlayerReset(true)
+                playerView.player = player
+                visible()
+            }
         }
     }
 
     fun unbind() {
+        Log.i("XXXX", "Unbinding ${hashCode()} ${itemView.tag}")
+        itemView.tag = null
         with (binding) {
             textOverlay.text = null
-            video.player?.stop()
-            video.player?.release()
-        }
-    }
-
-    internal class ErrorListener(private val context: Context): Player.Listener {
-        override fun onPlayerError(error: PlaybackException) {
-            Toast.makeText(context, error.errorCodeName, Toast.LENGTH_SHORT).show()
-            super.onPlayerError(error)
+            stillImage.invisible()
+            playerView.invisible()
+            playerView.player?.stop()
+            playerView.player = null
         }
     }
 
@@ -50,9 +81,6 @@ internal class VideoViewHolder private constructor(
             onViewHolderClicked: (ViewHolder) -> Unit
         ): VideoViewHolder {
             with (GridItemBinding.inflate(LayoutInflater.from(parent.context), parent, false)) {
-                video.player = ExoPlayer.Builder(video.context).build().apply {
-                    addListener(ErrorListener(parent.context))
-                }
                 return VideoViewHolder(this).apply {
                     itemView.setOnClickListener {
                         onViewHolderClicked.invoke(this)

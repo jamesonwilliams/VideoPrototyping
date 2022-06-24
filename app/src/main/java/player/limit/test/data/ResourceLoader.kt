@@ -8,7 +8,7 @@ import player.limit.test.R
 class ResourceLoader(private val resources: Resources) {
     fun readString(@RawRes rawResourceId: Int): String {
         return with (Dispatchers.IO) {
-            resources.openRawResource(R.raw.recommended)
+            resources.openRawResource(rawResourceId)
                 .bufferedReader()
                 .use { it.readText() }
         }

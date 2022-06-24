@@ -17,7 +17,7 @@ class GridAdapter(
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         when (holder) {
-            is VideoViewHolder -> holder.bind(video = getItem(position))
+            is VideoViewHolder -> holder.bind(model = getItem(position))
         }
     }
 
@@ -25,6 +25,7 @@ class GridAdapter(
         when (holder) {
             is VideoViewHolder -> holder.unbind()
         }
+        super.onViewRecycled(holder)
     }
 
     object VideoDiffCallback: DiffUtil.ItemCallback<VideoUiModel>() {
