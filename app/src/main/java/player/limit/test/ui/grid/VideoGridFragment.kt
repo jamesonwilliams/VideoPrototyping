@@ -36,7 +36,7 @@ class VideoGridFragment : Fragment() {
         }
         val view = FragmentVideoGridBinding.inflate(layoutInflater, container, false)
         view.grid.layoutManager = StaggeredGridLayoutManager(
-            /* spanCount = */ 3,
+            /* spanCount = */ 2,
             /* orientation */ StaggeredGridLayoutManager.VERTICAL
         )
         view.grid.adapter = adapter

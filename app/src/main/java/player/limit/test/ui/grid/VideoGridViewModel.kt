@@ -18,7 +18,7 @@ class VideoGridViewModel(params: Params): ViewModel() {
 
     fun fetchVideos() {
         viewModelScope.launch {
-            repository.getVideos(howMany = 20).collect { newVideos ->
+            repository.getVideos(howMany = 8).collect { newVideos ->
                 _videos.value = newVideos.map { it.toVideoUiModel() }
             }
         }
