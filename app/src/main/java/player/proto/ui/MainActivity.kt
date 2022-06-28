@@ -1,10 +1,8 @@
-package player.limit.test.ui
+package player.proto.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import player.limit.test.R
-import player.limit.test.databinding.ActivityMainBinding
-import player.limit.test.ui.grid.VideoGridFragment
+import player.proto.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

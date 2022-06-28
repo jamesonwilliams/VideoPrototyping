@@ -1,4 +1,4 @@
-package player.limit.test.repo
+package player.proto.repo
 
 import kotlinx.coroutines.flow.Flow
 

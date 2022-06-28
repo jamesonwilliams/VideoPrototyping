@@ -1,4 +1,4 @@
-package player.limit.test.ui.grid
+package player.proto.ui.grid
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import com.google.android.exoplayer2.ExoPlayer
 import com.google.android.exoplayer2.MediaItem
 import com.google.android.exoplayer2.PlaybackException
 import com.google.android.exoplayer2.Player
-import player.limit.test.databinding.GridItemBinding
+import player.proto.databinding.GridItemBinding
 
 internal class VideoViewHolder private constructor(
     private val binding: GridItemBinding

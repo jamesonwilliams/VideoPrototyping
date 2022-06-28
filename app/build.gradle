@@ -9,7 +9,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "player.limit.test"
+        applicationId "player.prototyping"
         minSdk 24
         targetSdk 32
         versionCode 1

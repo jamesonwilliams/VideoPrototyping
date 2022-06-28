@@ -8,12 +8,12 @@
 
     <fragment
         android:id="@+id/videoGridFragment"
-        android:name="player.limit.test.ui.grid.VideoGridFragment"
+        android:name="player.proto.ui.grid.VideoGridFragment"
         android:label="fragment_video_grid"
         tools:layout="@layout/fragment_video_grid" />
     <fragment
         android:id="@+id/landingFragment"
-        android:name="player.limit.test.ui.landing.LandingFragment"
+        android:name="player.proto.ui.landing.LandingFragment"
         android:label="fragment_landing"
         tools:layout="@layout/fragment_landing" >
         <action

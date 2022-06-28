@@ -1,4 +1,4 @@
-package player.limit.test.ui.grid
+package player.proto.ui.grid
 
 import android.content.Intent
 import android.net.Uri
@@ -12,9 +12,9 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
-import player.limit.test.data.ResourceLoader
-import player.limit.test.databinding.FragmentVideoGridBinding
-import player.limit.test.repo.VideoResourceRepository
+import player.proto.data.ResourceLoader
+import player.proto.databinding.FragmentVideoGridBinding
+import player.proto.repo.VideoResourceRepository
 
 class VideoGridFragment : Fragment() {
     private val viewModel: VideoGridViewModel by viewModels {

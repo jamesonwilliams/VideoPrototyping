@@ -1,4 +1,4 @@
-package player.limit.test.repo
+package player.proto.repo
 
 data class Video(
     val id: String,

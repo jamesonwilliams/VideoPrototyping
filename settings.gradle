@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "ExoPlayer Limit Test"
+rootProject.name = "Player Prototyping"
 include ':app'

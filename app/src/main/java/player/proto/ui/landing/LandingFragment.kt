@@ -1,4 +1,4 @@
-package player.limit.test.ui.landing
+package player.proto.ui.landing
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
-import player.limit.test.databinding.FragmentLandingBinding
+import player.proto.databinding.FragmentLandingBinding
 
 class LandingFragment : Fragment() {
     private val viewModel: LandingViewModel by viewModels { LandingViewModel.Factory() }

@@ -1,10 +1,10 @@
-package player.limit.test.ui.landing
+package player.proto.ui.landing
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
-import player.limit.test.databinding.ListItemBinding
+import player.proto.databinding.ListItemBinding
 
 class ListItemViewHolder(private val binding: ListItemBinding): RecyclerView.ViewHolder(binding.root) {
 

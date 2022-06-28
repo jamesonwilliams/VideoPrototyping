@@ -1,4 +1,4 @@
-package player.limit.test.data
+package player.proto.data
 
 import kotlinx.serialization.Serializable
 

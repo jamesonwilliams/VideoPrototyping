@@ -1,4 +1,4 @@
-package player.limit.test.ui.landing
+package player.proto.ui.landing
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

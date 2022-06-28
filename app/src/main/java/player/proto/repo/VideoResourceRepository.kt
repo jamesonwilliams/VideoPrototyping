@@ -1,11 +1,11 @@
-package player.limit.test.repo
+package player.proto.repo
 
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flowOf
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.Json
-import player.limit.test.R
-import player.limit.test.data.*
+import player.proto.R
+import player.proto.data.*
 
 class VideoResourceRepository(private val resourceLoader: ResourceLoader): VideoRepository {
     override suspend fun getVideos(howMany: Int): Flow<List<Video>> {

@@ -1,4 +1,4 @@
-package player.limit.test.ui.grid
+package player.proto.ui.grid
 
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil

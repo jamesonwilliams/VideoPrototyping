@@ -1,4 +1,4 @@
-package player.limit.test.ui.grid
+package player.proto.ui.grid
 
 data class VideoUiModel(
     val id: String,

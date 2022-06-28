@@ -1,4 +1,4 @@
-package player.limit.test.ui.grid
+package player.proto.ui.grid
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -7,8 +7,8 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
-import player.limit.test.repo.Video
-import player.limit.test.repo.VideoRepository
+import player.proto.repo.Video
+import player.proto.repo.VideoRepository
 
 class VideoGridViewModel(params: Params): ViewModel() {
     private val repository = params.repository
