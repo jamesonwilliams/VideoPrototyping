@@ -19,5 +19,12 @@
         <action
             android:id="@+id/action_landingFragment_to_videoGridFragment"
             app:destination="@id/videoGridFragment" />
+        <action
+            android:id="@+id/action_landingFragment_to_videoPagerFragment"
+            app:destination="@id/videoPagerFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/videoPagerFragment"
+        android:name="player.proto.ui.pager.VideoPagerFragment"
+        android:label="VideoPagerFragment" />
 </navigation>

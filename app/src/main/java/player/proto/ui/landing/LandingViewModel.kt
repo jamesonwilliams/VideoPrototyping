@@ -3,6 +3,8 @@ package player.proto.ui.landing
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import kotlinx.coroutines.flow.flowOf
+import player.proto.ui.landing.LandingFragmentDirections.Companion.actionLandingFragmentToVideoGridFragment
+import player.proto.ui.landing.LandingFragmentDirections.Companion.actionLandingFragmentToVideoPagerFragment
 
 class LandingViewModel : ViewModel() {
     val entries = flowOf(
@@ -10,8 +12,13 @@ class LandingViewModel : ViewModel() {
             ListItemModel(
                 id = 1,
                 message = "Video Grid",
-                navigationTarget = LandingFragmentDirections.actionLandingFragmentToVideoGridFragment(),
+                navigationTarget = actionLandingFragmentToVideoGridFragment(),
             ),
+            ListItemModel(
+                id = 2,
+                message = "Video Pager",
+                navigationTarget = actionLandingFragmentToVideoPagerFragment(),
+            )
         )
     )
 
