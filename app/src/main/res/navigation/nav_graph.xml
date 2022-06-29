@@ -22,9 +22,17 @@
         <action
             android:id="@+id/action_landingFragment_to_videoPagerFragment"
             app:destination="@id/videoPagerFragment" />
+        <action
+            android:id="@+id/action_landingFragment_to_feedFragment"
+            app:destination="@id/feedFragment" />
     </fragment>
     <fragment
         android:id="@+id/videoPagerFragment"
         android:name="player.proto.ui.pager.VideoPagerFragment"
         android:label="VideoPagerFragment" />
+    <fragment
+        android:id="@+id/feedFragment"
+        android:name="player.proto.ui.feed.FeedFragment"
+        android:label="fragment_feed"
+        tools:layout="@layout/fragment_feed" />
 </navigation>

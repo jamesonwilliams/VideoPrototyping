@@ -14,9 +14,19 @@ populate the surfaces while they are not attached to active video. The
 grid view will instead use a carousel of images to simulate video
 playback; it won't use ExoPlayer at all.
 
+## Menu
+
 <img src="screenshots/menu.png" width="200px" />
+
+## Video Feed
+
+<img src="screenshots/feed.png" width="200px" />
+
+## Video Grid
+
 <img src="screenshots/grid.png" width="200px" />
+
+## Video Pager
+
 <img src="screenshots/fbp.png" width="200px" />
-
-
 
