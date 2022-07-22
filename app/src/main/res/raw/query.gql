@@ -1,0 +1,41 @@
+query RecommendedVideoPosts(
+  $videoFeedContext: RecommendedVideoFeedContextInput
+) {
+  recommendedVideoFeed {
+    posts(videoFeedContext: $videoFeedContext) {
+      edges {
+        node {
+          id
+          title
+          url
+          permalink
+          media {
+            still {
+              content {
+                url
+                dimensions {
+                  width
+                  height
+                }
+              }
+            }
+            packagedMedia {
+              muxedMp4s {
+                recommended {
+                  url
+                }
+              }
+            }
+            streaming {
+              dimensions {
+                width
+                height
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

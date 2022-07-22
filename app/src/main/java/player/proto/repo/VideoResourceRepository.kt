@@ -6,14 +6,17 @@ import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.Json
 import player.proto.R
 import player.proto.data.*
+import player.proto.data.RecommendedVideos.Data.RecommendedVideoFeed.Posts.Edge
+import player.proto.data.RecommendedVideos.Data.RecommendedVideoFeed.Posts.Edge.Node.Media
+import player.proto.data.RecommendedVideos.Data.RecommendedVideoFeed.Posts.Edge.Node.Media.Still.Content
 
 class VideoResourceRepository(private val resourceLoader: ResourceLoader): VideoRepository {
     override suspend fun getVideos(howMany: Int): Flow<List<Video>> {
         return resourceLoader.readString(R.raw.recommended)
             .let { Json.decodeFromString<RecommendedVideos>(it) }
             .data
-            .recommendedMediaFeed
-            .elements
+            .recommendedVideoFeed
+            .posts
             .edges
             .shuffled()
             .subList(0, howMany)
@@ -29,7 +32,7 @@ class VideoResourceRepository(private val resourceLoader: ResourceLoader): Video
                 detailLink = url,
                 duration = media.packagedMedia.muxedMp4s?.recommended?.duration,
                 formats = media.toFormats(),
-                thumbnail = media.still.source.toVideoThumbnail()
+                thumbnail = media.still.content.toVideoThumbnail()
             )
         }
     }
@@ -53,7 +56,7 @@ class VideoResourceRepository(private val resourceLoader: ResourceLoader): Video
         }.toMap()
     }
 
-    private fun Source.toVideoThumbnail(): Video.Thumbnail {
+    private fun Content.toVideoThumbnail(): Video.Thumbnail {
         return Video.Thumbnail(
             url = url,
             dimensions = Video.Dimensions(
